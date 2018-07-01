@@ -1,0 +1,11 @@
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.0\EmployeeApp.deps.json
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.0\EmployeeApp.runtimeconfig.json
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.0\EmployeeApp.runtimeconfig.dev.json
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.0\EmployeeApp.dll
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.0\EmployeeApp.pdb
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.0\EmployeeApp.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.0\EmployeeApp.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.0\EmployeeApp.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.0\EmployeeApp.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.0\EmployeeApp.dll
+C:\Users\Alexander\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.0\EmployeeApp.pdb

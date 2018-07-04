@@ -3,35 +3,15 @@ using System.Collections.Generic;
 
 public class PInfoCompare : IComparer<Employee>
 {
+
     public int Compare(Employee empl1, Employee empl2)
     {
-        if (empl1.SurName == empl2.SurName)
-            if (empl1.FirstName == empl2.FirstName)
-                if (empl1.Patronymic == empl2.Patronymic)
-                {
-                    return 0;
-                }
-                else
-                {
-                    if (empl1.Patronymic.CompareTo(empl2.Patronymic) == -1)
-                        return -1;
-                    else
-                        return 1;
-                }
-            else
-            {
-                if (empl1.FirstName.CompareTo(empl2.FirstName) == -1)
-                    return -1;
-                else
-                    return 1;
-            }
-        else
-        {
-            if (empl1.SurName.CompareTo(empl2.SurName) == -1)
-                return -1;
-            else
-                return 1;
-        }
+        int result = empl1.SurName.CompareTo(empl2.SurName);
+        if (result == 0)
+            result = empl1.FirstName.CompareTo(empl2.FirstName);
+        if (result == 0)
+            result = empl1.Patronymic.CompareTo(empl2.Patronymic);
+        return result;
     }
 }
 
@@ -60,14 +40,7 @@ public class Employee : IComparable<Employee>
 
     public int CompareTo(Employee other)
     { 
-        {
-            if (Salary == other.Salary)
-                return 0;
-            else if (Salary < other.Salary)
-                return -1;
-            else
-                return 1;
-        }
+        return Salary.CompareTo(other.Salary);
     }
 
     override public string ToString()
